@@ -45,5 +45,15 @@ export default {
   background: #000;
   color: #fff;
   border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn:focus {
+  outline: none;
 }
 </style>
