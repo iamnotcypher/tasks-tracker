@@ -11,7 +11,7 @@
     },
     methods: {
       onClick() {
-        this.$emit('toggle-task')
+        this.$emit('btn-click')
       }
     }
   }
