@@ -17,6 +17,12 @@
       "text": "Play MiniMilitia",
       "date": "Every goddem day",
       "reminder": true
+    },
+    {
+      "id": 53351,
+      "text": "new task",
+      "day": "new date",
+      "reminder": false
     }
   ]
 }
