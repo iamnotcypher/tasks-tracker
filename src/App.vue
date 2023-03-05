@@ -3,6 +3,7 @@
     <Header :showAddTask="showAddTask" @toggle-task="toggleTask" title="Task Tracker"/>
     <AddTask v-show="showAddTask" @add-task="addTask" />
     <Tasks @toggle-reminder='toggleReminder' @delete-task='deleteTask' :tasks="tasks"/>
+    <router-view></router-view>
     <Footer />
   </div>
 </template>

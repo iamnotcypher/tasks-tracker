@@ -17,6 +17,12 @@
       "text": "Go on a world tour",
       "date": "March 10th at 12:00am",
       "reminder": true
+    },
+    {
+      "text": "Clean the kitchen",
+      "date": "Everyday at 10:00am",
+      "reminder": false,
+      "id": 63054
     }
   ]
 }
