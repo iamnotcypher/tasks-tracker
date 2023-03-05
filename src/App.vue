@@ -42,9 +42,13 @@ export default {
     toggleTask() {
       this.showAddTask = !this.showAddTask
     },
-    deleteTask(id) {
+    async deleteTask(id) {
       if(confirm('are you sure!?')) {
-        this.tasks = this.tasks.filter((task) => task.id !== id)
+        const res = await fetch(`api/tasks/${id}`, {
+          method: 'DELETE'
+        });
+
+        res.status === 200 ? (this.tasks = this.tasks.filter(task => task.id !== id)) : alert('Error Deleting...')
       }
     },
     toggleReminder(id) {
