@@ -66,4 +66,9 @@ export default {
 .btn:focus {
   outline: none;
 }
+@media(max-width: 687px) {
+  .btn {
+    padding: 7px 12px;
+  }
+}
 </style>
