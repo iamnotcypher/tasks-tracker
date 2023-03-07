@@ -67,6 +67,9 @@ export default {
   outline: none;
 }
 @media(max-width: 687px) {
+  .container {
+    padding: 15px;
+  }
   .btn {
     padding: 7px 12px;
   }
